@@ -23,9 +23,9 @@ There is one plugin configuration setting.
 
  * logfile - The json file to write to. Defaults to /var/log/mcollective-audit.log
 
-    rpcaudit = 1
-    rpcauditprovider = logstash
-    plugin.logstash.logfile = /var/log/mcollective-logstashaudit.log
+     rpcaudit = 1
+     rpcauditprovider = logstash
+     plugin.logstash.logfile = /var/log/mcollective-logstashaudit.log
 
 Logstash
 --------
