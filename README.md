@@ -19,9 +19,7 @@ Installation
 Configuration
 -------------
 
-There is one plugin configuration setting.
-
- * logfile - The json file to write to. Defaults to /var/log/mcollective-audit.log
+The logfile defaults to /var/log/mcollective-audit.log but can be changed as below, you also need to enable auditing as per the example below:
 
      rpcaudit = 1
      rpcauditprovider = logstash
