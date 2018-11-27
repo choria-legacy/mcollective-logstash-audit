@@ -1,6 +1,14 @@
 Logstash RPC Audit Logs
 =======================
 
+## Deprecation Notice
+
+This repository holds legacy code related to The Marionette Collective project.  That project has been deprecated by Puppet Inc and the code donated to the Choria Project.
+
+Please review the [Choria Project Website](https://choria.io) and specifically the [MCollective Deprecation Notice](https://choria.io/mcollective) for further information and details about the future of the MCollective project.
+
+## Overview
+
 This is a [SimpleRPC Audit Plugin](http://docs.puppetlabs.com/mcollective/simplerpc/auditing.html) that writes audit events to a json file that can
 easily be consumed by logstash.
 
